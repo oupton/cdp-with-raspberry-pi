@@ -60,7 +60,7 @@ sudo apt-get install -y openjdk-8-jdk-headless
 ```
 Next, we will download the leshan client to the Raspberry Pi:
 ```
-wget -o leshan.jar http://www.github.com/oupton/cdp-with-raspberry-pi/raw/master/leshan.jar
+wget -o leshan.jar http://raw.githubusercontent.com/oupton/cdp-with-raspberry-pi/master/leshan.jar
 ```
 ### Step 5: Creating a Device on CDP
 Log in to your CDP instance, then click on the 'Devices' tab in the left-hand side, then 'Add Device'. For the Serial Number, specify a name for the device, like ```oliver_pi```. This name will be used later when we start the Leshan client, so don't forget it. Set the Manufacturer to ```Generic``` and the Device to ```LWM2M Generic Device```. Save this, and exit CDP.
